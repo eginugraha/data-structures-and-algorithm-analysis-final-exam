@@ -23,7 +23,7 @@ public class CircularQueueArray {
     // Menambahkan element ke dalam queue
     public boolean enqueue(int data) {
         if (size == capacity) {
-            System.out.println("Queue Overflow! Cannot enqueue " + data);
+            System.out.println("Queue penuh!");
             return false;
         }
         

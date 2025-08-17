@@ -35,7 +35,7 @@ public class CircularQueueLinkedList {
     // Menampilkan element pertama
     public int peek() {
         if (front == null) {
-            System.out.println("Queue is empty");
+            System.out.println("Queue kosong!");
             return -1;
         }
         return front.data;
